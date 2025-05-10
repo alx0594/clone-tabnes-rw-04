@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup NodeJS
-        uses: setup/nodejs@v4
+        uses: actions/setup-node@v4
         with:
           node-version: lts/hydrogen
 
